@@ -1,0 +1,9 @@
+---
+# tasks file for docker-registry
+- name: Log into DockerHub
+  docker_login:
+    username: fir4s269
+    password: Fir4s123456789
+    
+- name: Push the Docker image into the repo
+  shell: docker push fir4s269/devops:latest
