@@ -6,4 +6,4 @@
     password: tZ7eMcv8HkY@MSd
     
 - name: Push the Docker image into the repo
-  shell: docker push fir4s269/devops:latest
+  shell: docker push barchajaw/devops:latest
